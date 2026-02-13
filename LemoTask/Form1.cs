@@ -10,7 +10,9 @@ namespace LemoTask
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
+            Form f = new Form2(this);
+            f.Show();
+
         }
 
         private void button3_Click(object sender, EventArgs e)

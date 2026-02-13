@@ -11,10 +11,12 @@ using System.Windows.Forms;
 namespace LemoTask
 {
     public partial class Form2 : Form
-    {
-        public Form2()
+    { Form1 f;
+        public Form2(Form1 _f)
         {
             InitializeComponent();
+            f = _f;
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
