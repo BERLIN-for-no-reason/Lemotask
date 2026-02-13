@@ -11,7 +11,8 @@ using System.Windows.Forms;
 namespace LemoTask
 {
     public partial class Form2 : Form
-    { Form1 f;
+    {
+        Form1 f;
         public Form2(Form1 _f)
         {
             InitializeComponent();
@@ -22,6 +23,11 @@ namespace LemoTask
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

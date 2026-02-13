@@ -117,6 +117,7 @@
             button1.TabIndex = 8;
             button1.Text = "Ajouter";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form2
             // 
