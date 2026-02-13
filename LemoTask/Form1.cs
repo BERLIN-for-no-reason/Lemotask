@@ -1,8 +1,12 @@
+using Npgsql;
+
 namespace LemoTask
 {
 
     public partial class Form1 : Form
     {
+
+        NpgsqlConnection con;
         public Form1()
         {
             InitializeComponent();
@@ -22,7 +26,8 @@ namespace LemoTask
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            con = Connectioncs.getConnection();
+            
         }
     }
 }
