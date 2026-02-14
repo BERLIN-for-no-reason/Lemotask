@@ -38,7 +38,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(12, 131);
+            button1.Location = new Point(15, 66);
             button1.Name = "button1";
             button1.Size = new Size(138, 29);
             button1.TabIndex = 0;
@@ -49,16 +49,16 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(253, 90);
+            dataGridView1.Location = new Point(183, 66);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(488, 283);
+            dataGridView1.Size = new Size(488, 191);
             dataGridView1.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(25, 18);
+            label1.Location = new Point(12, 25);
             label1.Name = "label1";
             label1.Size = new Size(103, 20);
             label1.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(12, 205);
+            button2.Location = new Point(15, 140);
             button2.Name = "button2";
             button2.Size = new Size(138, 52);
             button2.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(12, 293);
+            button3.Location = new Point(15, 228);
             button3.Name = "button3";
             button3.Size = new Size(138, 29);
             button3.TabIndex = 4;
@@ -87,7 +87,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(686, 283);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label1);
