@@ -87,9 +87,9 @@
             description.AutoSize = true;
             description.Location = new Point(73, 98);
             description.Name = "description";
-            description.Size = new Size(50, 20);
+            description.Size = new Size(148, 20);
             description.TabIndex = 5;
-            description.Text = "label1";
+            description.Text = "description du projet";
             // 
             // label1
             // 
@@ -135,6 +135,7 @@
             Controls.Add(textBox1);
             Name = "Form2";
             Text = "Form2";
+            Load += Form2_Load;
             ResumeLayout(false);
             PerformLayout();
         }
